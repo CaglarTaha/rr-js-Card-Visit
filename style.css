@@ -4,10 +4,11 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	background-color: #fff;
 	font-family: Montserrat, sans-serif;
-	
+	background-image:"./Redrose 1920-1080 background.png" ;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -32,8 +33,8 @@ p {
 }
 
 .card-container {
-	background-color: #231E39;
-	border-radius: 5px;
+	background-color: #413e4d;
+	border-radius: 10px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #B3B8CD;
 	padding-top: 30px;
@@ -46,10 +47,20 @@ p {
 
 
 .card-container .round {
-	border: 1px solid tomato;
+	border: 1px solid rgb(235, 235, 235);
 	border-radius: 50%;
 	padding: 7px;
+    height: 150px;
+    width: 150px;
 }
+
+.buttons a{
+    list-style: none;
+    text-decoration: none;
+    color: #231E39;
+}
+
+
 
 button.primary {
 	background-color: #03BFCB;
@@ -67,7 +78,7 @@ button.primary.ghost {
 }
 
 .skills {
-	background-color: #1F1A36;
+	background-color: #232326;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
@@ -87,6 +98,12 @@ button.primary.ghost {
 	margin: 0 7px 7px 0;
 	padding: 7px;
 }
+
+.skills ul li a{
+color: #02899C;
+text-decoration: none;
+}
+
 
 footer {
     background-color: #222;
